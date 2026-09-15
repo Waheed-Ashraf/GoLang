@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front End Exam Solutions</title>
+    <link rel="stylesheet" href="frontEndExam.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Marvel portfolio home">
+        <span class="brand-icon"></span>
+        <span>Marvel</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="mode-button" type="button">
+        <span class="moon-icon"></span>
+        Color mode
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Welcome to my portfolio website!</p>
+          <h1>Hey folks, I'm <span>Marvel Sann</span></h1>
+          <p>
+            Building a successful product is a challenge. I am highly energetic
+            in user experience design, interfaces and web development.
+          </p>
+          <div class="actions">
+            <a class="button secondary" id="resume" href="#resume">Download Resume</a>
+            <a class="button primary" href="#contact">Get a free quote</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Developer workspace illustration">
+          <div class="diagram">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="desk"></div>
+          <div class="laptop"></div>
+          <div class="person-art"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-panel">
+        <h2>Background Generator</h2>
+        <div class="generator">
+          <label>
+            Color one
+            <input id="color-one" type="color" value="#ffbf00" />
+          </label>
+          <label>
+            Color two
+            <input id="color-two" type="color" value="#4b4968" />
+          </label>
+          <code id="css-output"></code>
+        </div>
+      </section>
+
+      <section id="about" class="section-panel">
+        <h2>About</h2>
+        <p>
+          This page solves the portfolio and background-generator HTML/CSS/JS
+          tasks from the Front End Exam PDF.
+        </p>
+      </section>
+
+      <section id="contact" class="section-panel">
+        <h2>Contact</h2>
+        <p>Email: marvel@example.com</p>
+      </section>
+    </main>
+
+    <script src="frontEndExam.js"></script>
+  </body>
+</html>

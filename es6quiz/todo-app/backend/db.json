@@ -1,0 +1,15 @@
+{
+  "notes": [
+    {
+      "title": "Buy groceriesf fsdfsd ",
+      "content": "Milk, Bread, Eggs, Cheesefdsf  ddfs",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "title": "Workout",
+      "content": "30 minutes of cardio and strength training"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
