@@ -20,7 +20,6 @@ func main() {
 		return
 	}
 	fmt.Println("Remaining balance:", balance)
-
 }
 
 // type months int

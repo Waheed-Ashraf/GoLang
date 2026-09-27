@@ -1,0 +1,8 @@
+1- error in 	var s Speaker = Dog{} as it should be like this 	var s Speaker = %Dog{} as we passed earlier the struct reference not value 
+
+2- false 
+
+3- false
+
+
+
